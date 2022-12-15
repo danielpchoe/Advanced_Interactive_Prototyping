@@ -18,15 +18,30 @@ LED strip was meant to be placed in 2 grooves in front to act as the cat’s eye
 
 https://github.com/danielpchoe/AlarmClock/blob/main/Final_Project_Sketch/Final_Project_Sketch.ino
 
-if(sensorVal > 1000) {  // sensor value higher than threshold
-   digitalWrite(ledPin, HIGH);  // turn on LED
-}
-
-
 ```
-if(sensorVal > 1000) {  // sensor value higher than threshold
-   digitalWrite(ledPin, HIGH);  // turn on LED
-}
+if(millis() > fadeTimer + 2) {  // 10 ms passed    
+    // increment color values:
+    if(redValFinal > redVal)
+      redVal++;
+    else if(redValFinal < redVal)
+      redVal--;
+    if(greenValFinal > greenVal)
+      greenVal++;
+    else if(greenValFinal < greenVal)
+      greenVal--;
+    if(blueValFinal > blueVal)
+      blueVal++;
+    else if(blueValFinal < blueVal)
+      blueVal--;
+    
+    // set pixel colors:
+    for(int i=0; i<15; i++) {
+      pixels.setPixelColor(i, redVal, greenVal, blueVal);
+    } 
+    pixels.show(); 
+    
+    fadeTimer = millis();   // update timer
+  }
 ```
 # Software
 
