@@ -8,9 +8,12 @@ This device meant to be a remote cat feeder that dispenses kibbles or treats whe
 # Hardware
 
 ##
+![IMG_3589](https://user-images.githubusercontent.com/118408896/207751509-d2b29678-5339-4e0f-b880-9f72d70e16f3.JPG)
 
 Servo (for feeder lid), led strip 15 pixels, and a mini dual button.
 LED strip was meant to be placed in 2 grooves in front to act as the cat’s eyes. Dual button will be recessed to the side of the enclosure.
+
+![Final Schematic _schem](https://user-images.githubusercontent.com/118408896/207751393-92384b04-1d39-4ca7-af9f-8185e9051f75.jpg)
 
 # Firmware
 
@@ -84,9 +87,13 @@ This second portion below shows the IFTTT integration. Once the trigger is activ
 # Integrations
 
 ##
-For the IFTTT integration, the user can send an email with the subject liine "#feedme" to trigger the feeder tray to open.
+For the IFTTT integration, the user can send an email with the subject line "#feedme" to trigger the feeder tray to open.
+
+<img width="586" alt="Screenshot 2022-12-14 at 8 15 32 AM" src="https://user-images.githubusercontent.com/118408896/207751170-0cb5dd02-06bc-4b9b-b599-158677e0aa13.png">
 
 <img width="1114" alt="Screenshot 2022-12-13 at 8 36 31 PM" src="https://user-images.githubusercontent.com/118408896/207748458-ec34fe19-098f-4999-928a-ac9582b28082.png">
+
+Then the value titled "kibbles" will be received by Adafruit IO, which will then trigger open the feeder from thr IO dashboard.
 
 <img width="367" alt="Screenshot 2022-12-13 at 8 36 40 PM" src="https://user-images.githubusercontent.com/118408896/207748480-b442753d-ab74-4899-8d70-addeca153399.png">
 
@@ -96,6 +103,16 @@ For the IFTTT integration, the user can send an email with the subject liine "#f
 ##
 
 The enclosure was made using MDF material which are 6.5" squares. One challenge was making sure the kibbles, which vary in weight, would use gravity to allow it to fall into the food bowl upon opening. I created a slope in the feeding canal, but also a halfpipe ramp to ensure contents are forced down as well. All the hardware was arranged in a 1.5" crevice and equal space opposing it in case need to make different positions. 
+
+![IMG_3599](https://user-images.githubusercontent.com/118408896/207751562-b8b838d7-5ce2-4166-bc75-98de0354a9e7.JPG)
+
+![IMG_3616](https://user-images.githubusercontent.com/118408896/207751617-e6953b1b-388f-4ec2-a9b5-eecdff7bc9cb.JPG)
+
+![IMG_3628](https://user-images.githubusercontent.com/118408896/207751658-5022996a-3529-41f1-9633-1a7ba0e0def4.JPG)
+
+The servo is connected to the feeding tray lid.
+
+![IMG_3611](https://user-images.githubusercontent.com/118408896/207751707-ccc4ae4a-00c5-413a-8837-83d0238479c2.JPG)
 
 # Project outcome
 
