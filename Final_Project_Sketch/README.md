@@ -25,7 +25,7 @@ List all the separate hardware components used in your project and briefly expla
 
 In addition, include at least one photo showing your hardware wiring. This can be several close-ups with the goal of showing how the wiring connections are made. This is especially important if your project has an enclosure, to reveal what is inside.
 
-#Firmware
+# Firmware
 
 ##
 
