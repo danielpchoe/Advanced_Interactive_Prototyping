@@ -84,8 +84,12 @@ This second portion below shows the IFTTT integration. Once the trigger is activ
 # Integrations
 
 ##
+For the IFTTT integration, the user can send an email with the subject liine "#feedme" to trigger the feeder tray to open.
 
-Include a link to and/or screenshots of other functional components of your project, like Adafruit IO feeds, dashboards, IFTTT applets, etc. In general, think of your audience as someone new trying to learn how to make your project and make sure to cover anything helpful to explain the functional parts of it.
+<img width="1114" alt="Screenshot 2022-12-13 at 8 36 31 PM" src="https://user-images.githubusercontent.com/118408896/207748458-ec34fe19-098f-4999-928a-ac9582b28082.png">
+
+<img width="367" alt="Screenshot 2022-12-13 at 8 36 40 PM" src="https://user-images.githubusercontent.com/118408896/207748480-b442753d-ab74-4899-8d70-addeca153399.png">
+
 
 # Enclosure / Mechanical Design
 
