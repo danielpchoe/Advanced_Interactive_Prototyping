@@ -126,6 +126,10 @@ Then the value titled "kibbles" will be received by Adafruit IO, which will then
 
 The enclosure was made using MDF material which are 6.5" squares. One challenge was making sure the kibbles, which vary in weight, would use gravity to allow it to fall into the food bowl upon opening. I created a slope in the feeding canal, but also a halfpipe ramp to ensure contents are forced down as well. All the hardware was arranged in a 1.5" crevice and equal space opposing it in case need to make different positions. 
 
+Laser cut sketches (includes kibbles made from MDF):
+
+<img width="426" alt="Screenshot 2022-12-14 at 5 57 15 PM" src="https://user-images.githubusercontent.com/118408896/207754433-051cea6a-dbcf-4e5e-b2a8-2e8a6865726f.png">
+
 ![IMG_3599](https://user-images.githubusercontent.com/118408896/207751562-b8b838d7-5ce2-4166-bc75-98de0354a9e7.JPG)
 
 ![IMG_3616](https://user-images.githubusercontent.com/118408896/207751617-e6953b1b-388f-4ec2-a9b5-eecdff7bc9cb.JPG)
@@ -166,4 +170,7 @@ This particular assignment was one of those projects I had to just start creatin
 
 ##
 
-Please include links to any online resources like videos or tutorials that you may have found helpful in your process of implementing the prototype. If you used any substantial code from an online resource, make sure to credit the author(s) or sources.
+https://forum.arduino.cc/t/led-strip-blinking/603010/2
+
+https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use
+
