@@ -1,15 +1,9 @@
-# FinalProject
-
-##
-
-This device meant to be a remote cat feeder that dispenses kibbles or treats when away from the pet's premises. The feeder can be operated through IFTTT. If internet connection is not ideal, the feeder can also be operated by using the mini dual button. 
-
 
 # Introduction
 
 ##
 
-Provide a description of your initial project idea and include images of the concept sketches that you created in Part 1 of this assignment. Explain the reasoning behind your final choice of the project concept, whether it’s based on one of the initial sketches, a combination of or a departure from the original concepts.
+This device meant to be a remote cat feeder that dispenses kibbles or treats when away from the pet's premises. The feeder can be operated through IFTTT. If internet connection is not ideal, the feeder can also be operated by using the mini dual button. 
 
 # Implementation
 
