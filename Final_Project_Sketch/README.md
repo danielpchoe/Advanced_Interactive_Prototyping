@@ -5,32 +5,29 @@
 
 This device meant to be a remote cat feeder that dispenses kibbles or treats when away from the pet's premises. The feeder can be operated through IFTTT. If internet connection is not ideal, the feeder can also be operated by using the mini dual button. 
 
-# Implementation
-
-##
-
-Explain your process of prototype development including all applicable aspects such as hardware (electronics), firmware (arduino code), software (p5.js or other code), integrations (Adafruit IO, IFTTT, Arduino IoT cloud, etc.), enclosure and mechanical design. Use a separate subheader for each part:
-
 # Hardware
 
 ##
 
-List all the separate hardware components used in your project and briefly explain what they do. Include a schematic diagram image (Fritzing is recommended, but hand-drawn is OK) showing all the wiring connections between the M5Stack-CoreInk board and other components.
-
-In addition, include at least one photo showing your hardware wiring. This can be several close-ups with the goal of showing how the wiring connections are made. This is especially important if your project has an enclosure, to reveal what is inside.
+Servo (for feeder lid), led strip 15 pixels, and a mini dual button.
+LED strip was meant to be placed in 2 grooves in front to act as the cat’s eyes. Dual button will be recessed to the side of the enclosure.
 
 # Firmware
 
 ##
 
-Provide a link to your Arduino code and explain a few important parts that make your prototype work. Most likely you should explain the inputs/outputs used in your code and how they affect the behavior of the prototype.
-
-For the Arduino editor link, you can paste the <iframe> embed, which will show up correctly on the GitHub Pages version of this document. To include shorter code snippets on the page, you can use the code block markdown, like this:
+https://github.com/danielpchoe/AlarmClock/blob/main/Final_Project_Sketch/Final_Project_Sketch.ino
 
 if(sensorVal > 1000) {  // sensor value higher than threshold
    digitalWrite(ledPin, HIGH);  // turn on LED
 }
 
+
+```
+if(sensorVal > 1000) {  // sensor value higher than threshold
+   digitalWrite(ledPin, HIGH);  // turn on LED
+}
+```
 # Software
 
 ##
