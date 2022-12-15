@@ -5,18 +5,21 @@
 
 This device meant to be a remote cat feeder that dispenses kibbles or treats when away from the pet's premises. The feeder can be operated through IFTTT. If internet connection is not ideal, the feeder can also be operated by using the mini dual button. 
 
-Medicine accountability tracker for relatives and loved ones using a weight sensor:
+Below are my three earlier concept sketches before selecting on a final concept.
 
-[Medicine Tracker.pdf](https://github.com/danielpchoe/AlarmClock/files/10232977/Medicine.Tracker.pdf)
+1.Medicine accountability tracker for relatives and loved ones using a weight sensor:
 
-Weather data and LED animation system:
+<img width="428" alt="Screenshot 2022-12-14 at 5 51 47 PM" src="https://user-images.githubusercontent.com/118408896/207753870-c3fb3334-4f70-466e-a119-ba3b2d21f8bb.png">
 
-[Weather Animation.pdf](https://github.com/danielpchoe/AlarmClock/files/10232998/Weather.Animation.pdf)
+2.Weather data and LED animation system:
 
-Final concept and selected project:
+<img width="428" alt="Screenshot 2022-12-14 at 5 51 57 PM" src="https://user-images.githubusercontent.com/118408896/207753887-dcb5051b-9188-4c7a-952a-0d08c6cbb525.png">
 
-[Remote Pet Feeder.pdf](https://github.com/danielpchoe/AlarmClock/files/10232999/Remote.Pet.Feeder.pdf)
+3.Final concept and selected project:
 
+<img width="426" alt="Screenshot 2022-12-14 at 5 52 08 PM" src="https://user-images.githubusercontent.com/118408896/207753908-34f04d6c-3dcb-4212-b0e9-06e6544fc8e4.png">
+
+I decided to go with the remote pet feeder because it has practical use to me, since I own a cat, and I felt that there were more opportunities to add multiple inputs and outputs.
 
 # Hardware
 
