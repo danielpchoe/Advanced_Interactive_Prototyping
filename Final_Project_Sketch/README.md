@@ -18,6 +18,9 @@ LED strip was meant to be placed in 2 grooves in front to act as the cat’s eye
 
 https://github.com/danielpchoe/AlarmClock/blob/main/Final_Project_Sketch/Final_Project_Sketch.ino
 
+The LED’s default state is white. Upon opening the feeder, pixels change to blue and chase each other individually down the strip. So essentially the eyes would blink one after the other then fade gradually back to white. Upon closing the feeder, the LEDs flash pink then gradually back to white.
+
+
 ```
 if(millis() > fadeTimer + 2) {  // 10 ms passed    
     // increment color values:
@@ -43,6 +46,8 @@ if(millis() > fadeTimer + 2) {  // 10 ms passed
     fadeTimer = millis();   // update timer
   }
 ```
+
+This second portion below shows the IFTTT integration. Once the trigger is activated, feeder opens then closes automatically after a few seconds. The LED light animation remains the same as above.
 
 ```
    // read button inputs every 100ms:
@@ -75,11 +80,6 @@ if(millis() > fadeTimer + 2) {  // 10 ms passed
     fadeTimer = millis();   // update timer
   }
 ```
-# Software
-
-##
-
-Similar to above, explain the important software components of your project with relevant code snippets and links (for example, a link to your p5 editor sketch).
 
 # Integrations
 
@@ -91,7 +91,7 @@ Include a link to and/or screenshots of other functional components of your proj
 
 ##
 
-Explain how you made the enclosure or any other physical or mechanical aspects of your project with photos, screenshots of relevant files such as laser-cut patterns, 3D models, etc. (it’s great if you’re willing to share the editable source files too!)
+The enclosure was made using MDF material which are 6.5" squares. One challenge was making sure the kibbles, which vary in weight, would use gravity to allow it to fall into the food bowl upon opening. I created a slope in the feeding canal, but also a halfpipe ramp to ensure contents are forced down as well. All the hardware was arranged in a 1.5" crevice and equal space opposing it in case need to make different positions. 
 
 # Project outcome
 
