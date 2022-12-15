@@ -43,6 +43,38 @@ if(millis() > fadeTimer + 2) {  // 10 ms passed
     fadeTimer = millis();   // update timer
   }
 ```
+
+```
+   // read button inputs every 100ms:
+  if(millis() > buttonTimer + 100) {
+    
+    blueButtonVal = digitalRead(blueButtonPin);
+    
+    if(blueButtonVal != blueButtonLast) {
+      Serial.print("blue button: ");
+      Serial.println(blueButtonVal);
+      blueButtonLast = blueButtonVal;
+      digitalWrite(servoPin, HIGH);
+      digitalWrite(rgbledPin, HIGH);
+      servoVal = 16;
+      servoObj.write(servoVal);
+      Serial.print("move servo to ");
+      Serial.println(servoVal);
+      Serial.println("Received: 0, 0, 255");
+      
+      for (int i=0; i<15; i++) {
+        int redVal = map(i, 0, 255, 10, 255);
+        int greenVal = map(i, 0, 255, 10, 0);
+        int blueVal = map(i, 0, 255, 255, 100);
+        delay(50);
+        
+    pixels.setPixelColor(i, redVal, greenVal, blueVal);
+
+    pixels.show(); 
+    
+    fadeTimer = millis();   // update timer
+  }
+```
 # Software
 
 ##
